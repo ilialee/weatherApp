@@ -1,0 +1,30 @@
+.Weather { 
+    width: 621px;
+    height: 462px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    padding: 12px;
+}
+
+.content {
+    display: flex;
+    height: 392px;
+    border: solid 1px #000;
+    border-top: 0px;
+}
+
+.contentItem {
+    width: 100%;
+    height: 100%;
+}
+
+.contentItemMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: solid 1px #000;
+}
+
+.contentItemFavourite {
+    padding: 12px;
+}

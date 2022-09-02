@@ -1,0 +1,21 @@
+.Location {
+    padding: 12px;
+}
+
+.favoritesList {
+    width: 310px;
+    height: 350px;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.listWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.listWrapper li {
+    margin: 0;
+}

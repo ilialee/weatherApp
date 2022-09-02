@@ -1,0 +1,25 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    min-height: 44px;
+    border-top: 1px solid #000000; 
+}
+
+.navBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    border-left: 1px solid #000000;
+    margin-left: -1px;
+    color: inherit;
+}
+
+.active {
+    background-color: #000000;
+    transition: all 0.3s;
+    color: #fff;
+}

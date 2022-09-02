@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+    border: 1px solid #000000;
+}
+
+.input {
+    height: 43px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.searchBtn {
+    height: 43px;
+    padding: 6.5px;
+    cursor: pointer;
+}
+
+.searchBtn:hover {
+    background-color: #ddd;
+}
