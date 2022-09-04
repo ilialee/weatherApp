@@ -7,7 +7,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => ({
-  getWeather: (id) => dispatch(deleteCity(id)),
+  deleteCity: (id) => dispatch(deleteCity(id)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Location);

@@ -1,44 +1,44 @@
 .Now {
-    padding: 12px;
+  padding: 12px;
 }
 
 .now__temperature {
-    font-size: 70px;
-    color: #000000;
+  font-size: 70px;
+  color: #000000;
 }
 
 .now__footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.now__centerImg {
-    display: block;
-    margin: 0 auto;
-    height: 180px;
-    width: 180px;
+.now__center__img {
+  display: block;
+  margin: 0 auto;
+  height: 180px;
+  width: 180px;
 }
 
-.now__heartBtn {
-    cursor: pointer;
+.now__heart__btn {
+  cursor: pointer;
 }
-
 
 .now__city {
-    font-size: 24px;
-    color: #000000;
+  font-size: 24px;
+  color: #000000;
 }
 
 .favorites__list {
-    font-size: 24px;
-    margin: 20px 15px 0px 15px;
+  font-size: 24px;
+  margin: 20px 15px 0px 15px;
 }
 
 .favorites__city {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.favorite__btn, .favorite__delete-btn {
-    cursor: pointer;
+.favorite__btn,
+.favorite__delete-btn {
+  cursor: pointer;
 }

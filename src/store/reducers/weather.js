@@ -16,7 +16,7 @@ const WeatherInitialState = {
     success: false,
   },
   weatherForcast: {
-    data: {},
+    data: { key: "", data: "", time: "", temp: "", src: "", feels_like: "" },
     loading: false,
     error: false,
     success: false,
@@ -78,7 +78,7 @@ const weatherReducer = (state = WeatherInitialState, action) => {
           ...state.weatherForcast,
           loading: false,
           success: true,
-          data: action.payload,
+          data: action.payload.data,
         },
       };
     case "GET_FORCAST_REJECTED":

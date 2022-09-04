@@ -10,8 +10,8 @@ const Main = ({ weather, forcast }) => {
     <div className={styles.Main}>
       <Routes>
         <Route path="/now" element={<Now weather={weather} />} />
-        <Route path="/details" element={<Details />} />
-        <Route path="/forecast" element={<Forcast />} />
+        <Route path="/details" element={<Details weather={weather} />} />
+        <Route path="/forecast" element={<Forcast forcast={forcast} />} />
       </Routes>
     </div>
   );

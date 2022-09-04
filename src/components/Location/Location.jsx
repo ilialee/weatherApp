@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Location.module.css";
 
 const Location = ({ cities, deleteCity }) => {
-  const elements = cities.map((item) => {
+  const cityList = cities.map((item) => {
     return (
       <div className={styles.listWrapper}>
         <li key={item.id}>{item.city}</li>
@@ -14,7 +14,7 @@ const Location = ({ cities, deleteCity }) => {
     <div className={styles.Location}>
       <div className={styles.locationHeader}>Added Locations:</div>
       <div className={styles.locationFavorites}>
-        <ul className={styles.favoritesList}>{elements}</ul>
+        <ul className={styles.favoritesList}>{cityList}</ul>
       </div>
     </div>
   );

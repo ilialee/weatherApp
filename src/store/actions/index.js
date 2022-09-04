@@ -11,7 +11,7 @@ const URL = `${WEATHER_API.SERVER_URL}?appid=${WEATHER_API.API_KEY}`;
 const URL_FORECAST = `${WEATHER_API.FORECAST_URL}?appid=${WEATHER_API.API_KEY}`;
 
 export const addCity = (city) => {
-  return { type: "ADD_CITY", city, id: nextCityId++ };
+  return { type: "ADD_CITY", city, id: nextCityId++ + city };
 };
 
 export const deleteCity = (id) => {
